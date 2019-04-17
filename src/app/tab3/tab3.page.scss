@@ -1,1 +1,25 @@
+.content{
+    height: 100%;
+    background: #f2f2f2;
+    position: relative;
+    overflow-y: auto;
+    .header{
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+    }
+    ul{
+        padding-top: 60px;
+        li{
+            list-style: none;
+            line-height: 40px;
+            font-size: 20px;
 
+        }
+    }
+}
+ion-checkbox{
+    // --background: red;
+}
